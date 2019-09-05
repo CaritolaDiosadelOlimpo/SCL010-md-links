@@ -376,3 +376,8 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 - [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions,
   lines, y branches.
 - [ ] Pasa tests (y linters) (`npm test`).
+
+
+./some/example.md http://algo.com/2/3/ ok 200 Link a algo
+./some/example.md https://otra-cosa.net/algun-doc.html fail 404 algún doc
+./some/example.md http://google.com/ ok 301 Google
