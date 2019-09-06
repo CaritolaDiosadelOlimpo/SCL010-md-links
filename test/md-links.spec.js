@@ -4,7 +4,7 @@ const mdLinks = require('./md-links.js');
 describe('mdLinks es un archivo donde guardamos las funciones que busca archivos .md y sus respectivos links', () => {
   describe('vamos a testear la funcion "stats"', ()=>{
     it('deberia retornar un objecto', ()=>{
-      expect(typeof mdLinks.stats ('https://github.com')).toBe('object');
+      expect(typeof mdLinks.stats ('https://nodejs.org/api/http.html#http_http_get_options_callback')).toBe('promise');
     })
   })
 });
