@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "description": "md-links",
   "main": "index.js",
-  "directories": {
-    "test": "test"
+  "scripts": {
+  "test": "jest"
   },
   "dependencies": {
     "async": "^3.1.0",
