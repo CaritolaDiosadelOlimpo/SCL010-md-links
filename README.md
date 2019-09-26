@@ -76,6 +76,7 @@ codigo 500 : estado ERR, el link presenta un error del servidor
 codigo 404 : estado de error interno
 codigo 300 : error de redireccionamiento, error de proxy
 
+<img src="https://i.ibb.co/4tQyzWh/estado-Links.png" alt="estado-Links" border="0">
 
 ##### `--stats`
 
