@@ -86,6 +86,9 @@ Opcion que entregas las estadisticas de los links, que pueden ser de tres tipos:
 +links Unicos (links que no se repiten al llamarlos en la pagina)
 
 
+<img src="https://i.ibb.co/stckFvN/Captura-de-pantalla-de-2019-09-26-01-48-21.png" alt="Captura-de-pantalla-de-2019-09-26-01-48-21" border="0">
+
+
 
 También podemos combinar `--stats` y `--validate` para obtener estadísticas que
 necesiten de los resultados de la validación.
