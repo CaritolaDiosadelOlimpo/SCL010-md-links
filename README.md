@@ -6,7 +6,9 @@ Este es un proyecto que busca resolver las necesidades de encontrar, leer, estra
 
 # Instalacion 
 
-npm i cari-md-links   /debes ejecutar este comando en tu terminal para instalar las                               dependencias de la aplicación. 
+npm i cari-md-links   
+
+Para descargar las dependencias de la App debes ejecutar este comando en tu terminal. 
 
 #Dependencias Necesarias 
 
@@ -58,40 +60,8 @@ Módulo fetch. Para poder hacer las consultas al servidor http de los links enco
   `jest` libreria necesaria para ejecutar los test unitarios
 
 
-##### Argumentos
 
-- `path`: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada es
-  relativa, debe resolverse como relativa al directorio desde donde se invoca
-  node - _current working directory_).
-- `options`: Un objeto con las siguientes propiedades:
-  * `validate`: Booleano que determina si se desea validar los links
-    encontrados.
-
-
-
-### CLI (Command Line Interface - Interfaz de Línea de Comando)
-
-El ejecutable de nuestra aplicación debe poder ejecutarse de la siguiente
-manera a través de la terminal:
-
-`md-links <path-to-file> [options]`
-
-Por ejemplo:
-
-```sh
-$ md-links ./some/example.md
-./some/example.md http://algo.com/2/3/ Link a algo
-./some/example.md https://otra-cosa.net/algun-doc.html algún doc
-./some/example.md http://google.com/ Google
-```
-
-El comportamiento por defecto no debe validar si las URLs responden ok o no,
-solo debe identificar el archivo markdown (a partir de la ruta que recibe como
-argumento), analizar el archivo Markdown e imprimir los links que vaya
-encontrando, junto con la ruta del archivo donde aparece y el texto
-que hay dentro del link (truncado a 50 caracteres).
-
-#### Options
+#### Opciones 
 
 ##### `--validate`
 
