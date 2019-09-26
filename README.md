@@ -92,8 +92,9 @@ Opcion que entregas las estadisticas de los links, que pueden ser de tres tipos:
 
 
 También podemos combinar `--stats` y `--validate` para obtener estadísticas que
-necesiten de los resultados de la validación.
+necesiten de los resultados de la validación. Al ejecutar ambas opciones en la estadisticas se agregan los Links rotos.
 
+<img src="https://i.ibb.co/r6ZPrVZ/Captura-de-pantalla-de-2019-09-26-02-18-42.png" alt="Captura-de-pantalla-de-2019-09-26-02-18-42" border="0">
 
 ### `README.md`
 
