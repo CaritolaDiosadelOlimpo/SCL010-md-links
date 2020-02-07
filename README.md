@@ -22,7 +22,9 @@ MD LINKS es una libreria autoejecutable que busca resolver las necesidades de en
 
 #### 
 
-*async,    axios,    commander,  eslint,    eslint-plugin-jestesm,    fetch,   file-system,   filehound,   jest, markdown-link,   markdown-link-extractor,   read,    test,    testing,    validador-mdlinks* <br/>
+  ```*async,    axios,    commander,  eslint,    eslint-plugin-jestesm,    fetch,   file-system,   filehound,   jest, markdown-link,   markdown-link-extractor,   read,    test,    testing,    validador-mdlinks* 
+```
+<br/>
 
 **Módulo commander.js** Esta fue utilizada para agregar opciones al paquete de manera que usuario pudiera pasarlas de manera más amigable y tener una guía de lo que hace el programa Utilizando danisalermi/md-links -help
 
