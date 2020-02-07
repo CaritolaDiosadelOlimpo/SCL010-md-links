@@ -1,4 +1,5 @@
-# MD LINKS
+#__***MD LINKS***__
+
 Es un leguaje de marcado ligero muy popular entre desarrolladores, muy utilizado en  plataformas que manejan texto plano en la web (GitHub, foros, blogs, ...). ... Estos archivos Markdown normalmente contienen links (vínculos), y desgraciadamente a veces estos links están rotos o ya no son válidos
 
 ## Introducción
@@ -6,9 +7,11 @@ MD LINKS es una libreria autoejecutable que busca resolver las necesidades de en
 
 ## Instalacion 
 
-npm i cari-md-links  "ejecuta este comando en tu terminal"
+```fix npm i cari-md-link```    !ejecuta este comando en tu terminal¡
 
-https://www.npmjs.com/package/cari-md-links
+```ini
+[https://www.npmjs.com/package/cari-md-links]
+``` 
 
 Para descargar las dependencias de la App debes ejecutar este comando en tu terminal. 
 
