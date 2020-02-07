@@ -5,17 +5,14 @@ Es un leguaje de marcado ligero muy popular entre desarrolladores, muy utilizado
 ## Introducción
 MD LINKS es una libreria autoejecutable que busca resolver las necesidades de encontrar, leer, estraer y dar los estados de vinculos, explore el lado back-end con Node JS para este proyecto.
 
-## Instalacion 
+## _Instalacion_ 
 
   ## npm i cari-md-link
- 
- 
-    ```
+    
   https://www.npmjs.com/package/cari-md-links 
   ```
+  **Para descargar las dependencias de la App debes ejecutar este comando en tu terminal.**
 
-
-Para descargar las dependencias de la App debes ejecutar este comando en tu terminal. 
 
 ## Dependencias Necesarias 
 
