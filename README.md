@@ -7,40 +7,19 @@ MD LINKS es una libreria autoejecutable que busca resolver las necesidades de en
 
 ## Instalacion 
 
-### ```fix  
- npm i cari-md-link              **ejecuta este comando en tu terminal**
-```                                                   
+     ```fix  
+ ### npm i cari-md-link                         **ejecuta este comando en tu terminal**
+     ```                                                   
 ```ini
 [https://www.npmjs.com/package/cari-md-links]
-``` 
+```
+
 
 Para descargar las dependencias de la App debes ejecutar este comando en tu terminal. 
 
-#Dependencias Necesarias 
+##Dependencias Necesarias 
 
-    "commander": "^3.0.0",  Libreria utilizada para agregar opciones al paquete.
-
-    "eslint": "^6.2.1",     
-
-    "eslint-plugin-jest": "^22.15.2",
-    
-    "fetch": "^1.1.0",
-
-    "file-system": "^2.2.2",
-
-    "filehound": "^1.17.3", Libreria que encuentra los archivos con extension .md dentro del                                  directorio. 
-
-    "jest": "^24.9.0",
-
-    "markdown-link": "^0.1.1",
-
-    "markdown-link-extractor": "^1.2.1",
-    
-    "node-fetch": "^2.6.0",
-    
-    "test": "^0.6.0",
-    
-    "validador-mdlinks": "^1.0.2"
+### async, axios, commander, eslint, eslint-plugin-jestesm, fetch, file-system, filehound, jest, markdown-link, markdown-link-extractorread, test, testing, validador-mdlinks
 
 Módulo commander.js. Esta fue utilizada para agregar opciones al paquete de manera que usuario pudiera pasarlas de manera más amigable y tener una guía de lo que hace el programa Utilizando danisalermi/md-links -help
 
