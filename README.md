@@ -7,12 +7,10 @@ MD LINKS es una libreria autoejecutable que busca resolver las necesidades de en
 
 ## Instalacion 
 
-   ```fix  
-  npm i cari-md-link
-  
-  ```   
+  ## npm i cari-md-link
  
-     ```ini
+ 
+    ```
   https://www.npmjs.com/package/cari-md-links 
   ```
 
