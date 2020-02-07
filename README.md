@@ -1,12 +1,14 @@
-# Markdown Links
+# MD links
 Es un leguaje de marcado ligero muy popular entre desarrolladores, muy utilizado en  plataformas que manejan texto plano en la web (GitHub, foros, blogs, ...). ... Estos archivos Markdown normalmente contienen links (vínculos), y desgraciadamente a veces estos links están rotos o ya no son válidos
 
 ## Introducción
 Este es un proyecto que busca resolver las necesidades de encontrar, leer, estraer y dar los estados de los vinculos, creando un software que desde su nacimiento que satisface la necesidad del usuario.
 
-# Instalacion 
+## Instalacion 
 
-npm i cari-md-links   
+npm i cari-md-links  "ejecuta este comando en tu terminal"
+
+https://www.npmjs.com/package/cari-md-links
 
 Para descargar las dependencias de la App debes ejecutar este comando en tu terminal. 
 
@@ -36,8 +38,10 @@ Para descargar las dependencias de la App debes ejecutar este comando en tu term
     
     "validador-mdlinks": "^1.0.2"
 
-    Módulo commander.js. Esta fue utilizada para agregar opciones al paquete de manera que usuario pudiera pasarlas de manera más amigable y tener una guía de lo que hace el programa Utilizando danisalermi/md-links -help
+Módulo commander.js. Esta fue utilizada para agregar opciones al paquete de manera que usuario pudiera pasarlas de manera más amigable y tener una guía de lo que hace el programa Utilizando danisalermi/md-links -help
+
 Módulo chalk. La misma se utilizò para colocar colores a las respuestas del paquete por consola. Ejemplo: Estad-sticas-colores
+
 Módulo filehound, para poder encontrar todos los archivos con extensiones permitidas para archivos markdown dentro de un directorio.
 Módulo fetch. Para poder hacer las consultas al servidor http de los links encontrados.
 
@@ -60,9 +64,7 @@ Módulo fetch. Para poder hacer las consultas al servidor http de los links enco
   `jest` libreria necesaria para ejecutar los test unitarios
 
 
-
 #### Opciones 
-
 ##### `--validate`
 
 Si pasamos la opción `--validate`, el módulo debe hacer una petición HTTP para
@@ -79,7 +81,6 @@ codigo 300 : error de redireccionamiento, error de proxy
 <img src="https://i.ibb.co/4tQyzWh/estado-Links.png" alt="estado-Links" border="0">
 
 ##### `--stats`
-
 Opcion que entregas las estadisticas de los links, que pueden ser de tres tipos:
 
 +links Totales 
