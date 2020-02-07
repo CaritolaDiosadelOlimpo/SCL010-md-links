@@ -22,7 +22,8 @@ MD LINKS es una libreria autoejecutable que busca resolver las necesidades de en
 
 #### 
 
-  ```*async,    axios,    commander,  eslint,    eslint-plugin-jestesm,    fetch,   file-system,   filehound,   jest, markdown-link,   markdown-link-extractor,   read,    test,    testing,    validador-mdlinks* 
+  ```fix 
+  async,    axios,    commander,  eslint,    eslint-plugin-jestesm,    fetch,   file-system,   filehound,   jest, markdown-link,   markdown-link-extractor,   read,    test,    testing,    validador-mdlinks 
 ```
 <br/>
 
