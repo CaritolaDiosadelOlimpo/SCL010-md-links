@@ -7,9 +7,10 @@ MD LINKS es una libreria autoejecutable que busca resolver las necesidades de en
 
 ## Instalacion 
 
-     ```fix  
+  ```fix  
   npm i cari-md-link                         **ejecuta este comando en tu terminal**
-     ```                                                   
+  ```   
+ 
 ```ini
   https://www.npmjs.com/package/cari-md-links 
 ```
@@ -17,16 +18,17 @@ MD LINKS es una libreria autoejecutable que busca resolver las necesidades de en
 
 Para descargar las dependencias de la App debes ejecutar este comando en tu terminal. 
 
-##Dependencias Necesarias 
+## Dependencias Necesarias 
 
-### async, axios, commander, eslint, eslint-plugin-jestesm, fetch, file-system, filehound, jest, markdown-link, markdown-link-extractorread, test, testing, validador-mdlinks
+#### *async, axios, commander, eslint, eslint-plugin-jestesm, fetch, file-system, filehound, jest, markdown-link, markdown-link-extractorread, test, testing, validador-mdlinks*
 
-Módulo commander.js. Esta fue utilizada para agregar opciones al paquete de manera que usuario pudiera pasarlas de manera más amigable y tener una guía de lo que hace el programa Utilizando danisalermi/md-links -help
+**Módulo commander.js** Esta fue utilizada para agregar opciones al paquete de manera que usuario pudiera pasarlas de manera más amigable y tener una guía de lo que hace el programa Utilizando danisalermi/md-links -help
 
-Módulo chalk. La misma se utilizò para colocar colores a las respuestas del paquete por consola. Ejemplo: Estad-sticas-colores
+**Módulo chalk** La misma se utilizò para colocar colores a las respuestas del paquete por consola. Ejemplo: Estad-sticas-colores
 
-Módulo filehound, para poder encontrar todos los archivos con extensiones permitidas para archivos markdown dentro de un directorio.
-Módulo fetch. Para poder hacer las consultas al servidor http de los links encontrados.
+**Módulo filehound**  Ayuda a encontrar todos los archivos con extensiones permitidas para archivos markdown dentro de un directorio.
+**Módulo fetch**  Hacer las consultas al servidor http de los links encontrados.
+
 
 ### Archivos del proyecto
 
