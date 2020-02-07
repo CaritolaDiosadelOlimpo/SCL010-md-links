@@ -5,23 +5,23 @@ Es un leguaje de marcado ligero muy popular entre desarrolladores, muy utilizado
 ## Introducción
 MD LINKS es una libreria autoejecutable que busca resolver las necesidades de encontrar, leer, estraer y dar los estados de vinculos, explore el lado back-end con Node JS para este proyecto.
 
+
 ## _Instalacion_ 
 
-## npm i cari-md-link
+
+### [npm i cari-md-link]
     
   https://www.npmjs.com/package/cari-md-links 
   
-  **Para descargar las dependencias de la App debes ejecutar este comando en tu terminal.**
+  *Para descargar las dependencias de la App debes ejecutar este comando en tu terminal.*
+
+
 
 
 ## Dependencias Necesarias 
 
-```diff
-- ¡Este color es muy rojo!
-```
-
 #### 
-*async,    axios,    commander,  eslint,    eslint-plugin-jestesm,    fetch,   file-system,   filehound,   jest, markdown-link,   markdown-link-extractor,   read,    test,    testing,    validador-mdlinks*
+*async,    axios,    commander,  eslint,    eslint-plugin-jestesm,    fetch,   file-system,   filehound,   jest, markdown-link,   markdown-link-extractor,   read,    test,    testing,    validador-mdlinks* <br/>
 
 **Módulo commander.js** Esta fue utilizada para agregar opciones al paquete de manera que usuario pudiera pasarlas de manera más amigable y tener una guía de lo que hace el programa Utilizando danisalermi/md-links -help
 
