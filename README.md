@@ -3,7 +3,7 @@
 Es un leguaje de marcado ligero muy popular entre desarrolladores, muy utilizado en  plataformas que manejan texto plano en la web (GitHub, foros, blogs, ...). ... Estos archivos Markdown normalmente contienen links (vínculos), y desgraciadamente a veces estos links están rotos o ya no son válidos
 
 ## Introducción
-MD LINKS es una libreria autoejecutable que busca resolver las necesidades de encontrar, leer, estraer y dar los estados de vinculos, explore el lado back-end con Node JS para este proyecto.
+MD LINKS es una libreria ejecutable que busca resolver las necesidades de encontrar, leer, estraer y dar los estados de vinculos, explore el lado back-end con Node JS para este proyecto.
 
 
 ## _Instalacion_ 
