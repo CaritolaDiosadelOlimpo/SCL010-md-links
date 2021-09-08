@@ -3,13 +3,14 @@
 Es un leguaje de marcado ligero muy popular entre desarrolladores, muy utilizado en  plataformas que manejan texto plano en la web (GitHub, foros, blogs, ...). ... Estos archivos Markdown normalmente contienen links (vínculos), y desgraciadamente a veces estos links están rotos o ya no son válidos
 
 ## Introducción
-MD LINKS es una libreria ejecutable que busca resolver las necesidades de encontrar, leer, estraer y dar los estados de vinculos, explore el lado back-end con Node JS para este proyecto.
+MD LINKS es una librería ejecutable que busca resolver las necesidades de encontrar, leer, extraer y dar los estados de vínculos. 
+Exploré el lado back-end con Node JS para este proyecto.
 
 
 ## _Instalacion_ 
 
 
-### npm i cari-md-link
+### npm i cari-md-links
     
   https://www.npmjs.com/package/cari-md-links 
   
@@ -27,12 +28,13 @@ MD LINKS es una libreria ejecutable que busca resolver las necesidades de encont
 ```
 <br/>
 
-**Módulo commander.js** Esta fue utilizada para agregar opciones al paquete de manera que usuario pudiera pasarlas de manera más amigable y tener una guía de lo que hace el programa Utilizando danisalermi/md-links -help
+**Módulo commander.js**  Utilizada para agregar opciones al paquete de manera que el usuario pueda usarlas de forma más amigable y así tener una guía de lo que hace                          el programa Utilizando danisalermi/md-links -help 
 
-**Módulo chalk** La misma se utilizò para colocar colores a las respuestas del paquete por consola. Ejemplo: Estad-sticas-colores
+**Módulo chalk** La misma se utilizó para colocar colores a las respuestas del paquete por consola. Ejemplo: Estad-sticas-colores
 
 **Módulo filehound**  Ayuda a encontrar todos los archivos con extensiones permitidas para archivos markdown dentro de un directorio.
-**Módulo fetch**  Hacer las consultas al servidor http de los links encontrados.
+
+**Módulo fetch**  Hace las consultas al servidor http de los links encontrados.
 
 
 ### Archivos del proyecto
@@ -51,31 +53,30 @@ MD LINKS es una libreria ejecutable que busca resolver las necesidades de encont
   incluirse en control de versiones (`git`).
 - `test/md-links.spec.js` debe contener los tests unitarios para la función
   `mdLinks()`. Tu inplementación debe pasar estos tets.
-  `jest` libreria necesaria para ejecutar los test unitarios
+  `jest` librería  necesaria para ejecutar los test unitarios
 
 
 #### Opciones 
 ##### `--validate`
 
-Si pasamos la opción `--validate`, el módulo debe hacer una petición HTTP para
-averiguar si el link funciona o no. Si el link resulta en una redirección a una
-URL que responde ok, entonces consideraremos el link como ok.
-Esta opcion nos devuelve los estados de links encontrados dentro del directorio 
+Si pasamos la opción `--validate`, el módulo debe hacer una petición HTTP para 
+averiguar si el link funciona o no. Si el link resulta en una redirección a una 
+URL que responde ok, entonces consideraremos el link como ok. 
+Esta opción nos devuelve los estados de links encontrados dentro del directorio.  
  
-codigo 200 : estado Ok, el Link se encuentra funcional
-codigo 500 : estado ERR, el link presenta un error del servidor 
-
-codigo 404 : estado de error interno
-codigo 300 : error de redireccionamiento, error de proxy
+código 200: estado Ok, el Link se encuentra funcional 
+código 500: estado ERR, el link presenta un error del servidor  
+código 404: estado de error interno 
+código 300: error de redireccionamiento, error de proxy 
 
 <img src="https://i.ibb.co/4tQyzWh/estado-Links.png" alt="estado-Links" border="0">
 
 ##### `--stats`
-Opcion que entregas las estadisticas de los links, que pueden ser de tres tipos:
+Opción que entregas las estadísticas de los links, que pueden ser de tres tipos: 
 
 +links Totales 
 +links Rotos 
-+links Unicos (links que no se repiten al llamarlos en la pagina)
++links Únicos (links que no se repiten al llamarlos en la pagina)
 
 
 <img src="https://i.ibb.co/stckFvN/Captura-de-pantalla-de-2019-09-26-01-48-21.png" alt="Captura-de-pantalla-de-2019-09-26-01-48-21" border="0">
@@ -83,7 +84,7 @@ Opcion que entregas las estadisticas de los links, que pueden ser de tres tipos:
 
 
 También podemos combinar `--stats` y `--validate` para obtener estadísticas que
-necesiten de los resultados de la validación. Al ejecutar ambas opciones en la estadisticas se agregan los Links rotos.
+necesiten de los resultados de la validación. Al ejecutar ambas opciones en las estadísticas se agregan los Links rotos.
 
 <img src="https://i.ibb.co/r6ZPrVZ/Captura-de-pantalla-de-2019-09-26-02-18-42.png" alt="Captura-de-pantalla-de-2019-09-26-02-18-42" border="0">
 
